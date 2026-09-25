@@ -1,0 +1,16 @@
+*.mrpack
+# Output of assemble scripts
+/generated
+# run_test.py will run a minecraft server here
+/run
+
+# The banes of all git repos
+__pycache__
+.DS_STORE
+.idea/
+
+# scripts
+scripts/data
+
+# Sometimes you gotta make a mess
+/tmp

@@ -1,0 +1,20 @@
+{
+	"music.menu": {
+		"replace": true,
+		"sounds": [
+			{
+				"name": "modfest:music/stereo/auburn_decoy",
+				"stream": true
+			}
+		]
+	},
+	"music.credits": {
+		"replace": true,
+		"sounds": [
+			{
+				"name": "modfest:music/stereo/basil",
+				"stream": true
+			}
+		]
+	}
+}

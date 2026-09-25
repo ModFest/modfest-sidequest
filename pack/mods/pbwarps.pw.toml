@@ -1,0 +1,13 @@
+name = "pbwarps"
+filename = "pbwarps-1.5.0+26.3-rc-1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DZ2XMKfr/versions/vhZAcVwV/pbwarps-1.5.0%2B26.3-rc-1.jar"
+hash-format = "sha512"
+hash = "fead03b3f9aecc7ea437566d68ed5fa08ce1a342ebf8d037f3c28131d4369a620e29143e9edf333278a320829125e48bcbf2596e9ce225268545385cc6756b47"
+
+[update]
+[update.modrinth]
+mod-id = "DZ2XMKfr"
+version = "vhZAcVwV"

@@ -1,0 +1,94 @@
+# Use %s in your TrackedValue to slot in the game event text being sent.
+# default: **%s**
+gameEventFormat = "**%s**"
+# Use a first %s in your TrackedValue to slot in a username, and a second to slot in the chat message content.
+# default: <@%s> %s
+gameChatFormat = "<@%s> %s"
+# Use a %s to slot in the skin texture ID / username for your head service of choice!
+# default: https://vzge.me/face/256/%s.png
+webhookFaceApi = "https://vzge.me/bust/256/%s.png"
+# The delay for sending a message from Discord to Minecraft in milliseconds. Set up to make sure that Webhook related Discord Bots such as PluralKit may send messages from users..
+# range: 0 - 9223372036854775807
+# default: 0
+d2mMessageDelay = 2000
+# The status message to show on the bridge bot
+# default:
+statusMessage = "ModFest 26"
+# The activity type to show on the bridge bot
+# options: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM_STATUS, COMPETING
+# default: PLAYING
+activityType = "PLAYING"
+# Whether to use nicknames defined by players or Minecraft account name on Discord
+# default: true
+useMinecraftNicknames = true
+# A map of text to text replacements from MC -> Discord; useful for Styled Chat Emoji
+[m2dReplacements]
+	"" = "<:blanketcon23:1116460366243840103>"
+	"" = "<:blob_waaaaa:971221534742040656>"
+	"" = "<:lil_pineapple:959375086228488203>"
+	"" = "<:modfest:1003042391596478525>"
+	"" = "<:ohno:724245854554161182>"
+	"" = "<:pineapple:1008106543079759974>"
+	"" = "<:uh:961064383419658270>"
+	"" = "<:winner:1008152122916864101>"
+	"" = "<:yeefuckinghaw:697606336564822076>"
+	"" = "<:ananas_great:1363033139252957398>"
+	"" = "<:ananas_good:1363033137097085029>"
+	"" = "<:ananas_question:1363033135662497933>"
+	"" = "<:ananas_none:1363033133917802577>"
+	"" = "<:modfest_waaaaa:1007787960864886915>"
+	"" = "<:iapprove:1008151991786164245>"
+	"" = "<:devious:1495393810535157912>"
+	"" = "<:ananas_stylish:1509944923871252480>"
+	"" = "<:ananas_silly:1509944919672881193>"
+	"" = "<:ananas_think:1509944925129543921>"
+	"" = "<:ananas_sob:1509944921988141187>"
+	"" = "<:shrimple:1509818601685651536>"
+	"" = "<:plume_devious:1509818578088755321>"
+	"" = "<:plume_happy:1509818541128290354>"
+	"" = "<:plume_pout:1509945812531286096>"
+	"" = "<:bb_happy:1509818409678930041>"
+	"" = "<:bb_blush:1509818365504655430>"
+	"" = "<:bb_surprised:1509818438636404786>"
+	"" = "<:bb_dizzy:1509818389839741030>"
+	"" = "<:ugg:1509818624758644917>"
+	"" = "<:lulu_happy:1509818518533832744>"
+	"" = "<:lulu_joyful:1509818484559970394>"
+	"" = "<:lulu_blush:1509818461684240514>"
+	"" = "<:lulu_stare:1509945312930828518>"
+	"-" = "‒"
+# A map of text to text replacements from Discord -> MC; useful for Styled Chat Emoji
+[d2mReplacements]
+	":blanketcon23:" = "<font 'modfest:emoji'></font>"
+	":blob_waaaaa:" = "<font 'modfest:emoji'></font>"
+	":lil_pineapple:" = "<font 'modfest:emoji'></font>"
+	":modfest:" = "<font 'modfest:emoji'></font>"
+	":ohno:" = "<font 'modfest:emoji'></font>"
+	":pineapple:" = "<font 'modfest:emoji'></font>"
+	":uh:" = "<font 'modfest:emoji'></font>"
+	":winner:" = "<font 'modfest:emoji'></font>"
+	":yeefuckinghaw:" = "<font 'modfest:emoji'></font>"
+	":ananas_great:" = "<font 'modfest:emoji'></font>"
+	":ananas_good:" = "<font 'modfest:emoji'></font>"
+	":ananas_question:" = "<font 'modfest:emoji'></font>"
+	":ananas_none:" = "<font 'modfest:emoji'></font>"
+	":modfest_waaaaa:" = "<font 'modfest:emoji'></font>"
+	":iapprove:" = "<font 'modfest:emoji'></font>"
+	":devious:" = "<font 'modfest:emoji'></font>"
+	":ananas_stylish:" = "<font 'modfest:emoji'></font>"
+	":ananas_silly:" = "<font 'modfest:emoji'></font>"
+	":ananas_think:" = "<font 'modfest:emoji'></font>"
+	":ananas_sob:" = "<font 'modfest:emoji'></font>"
+	":shrimple:" = "<font 'modfest:emoji'></font>"
+	":plume_devious:" = "<font 'modfest:emoji'></font>"
+	":plume_happy:" = "<font 'modfest:emoji'></font>"
+	":plume_pout:" = "<font 'modfest:emoji'></font>"
+	":bb_happy:" = "<font 'modfest:emoji'></font>"
+	":bb_blush:" = "<font 'modfest:emoji'></font>"
+	":bb_surprised:" = "<font 'modfest:emoji'></font>"
+	":bb_dizzy:" = "<font 'modfest:emoji'></font>"
+	":ugg:" = "<font 'modfest:emoji'></font>"
+	":lulu_happy:" = "<font 'modfest:emoji'></font>"
+	":lulu_joyful:" = "<font 'modfest:emoji'></font>"
+	":lulu_blush:" = "<font 'modfest:emoji'></font>"
+	":lulu_stare:" = "<font 'modfest:emoji'></font>"

@@ -1,0 +1,22 @@
+{
+	"item.scattered_shards.shard_tablet": "Collector's Backpack",
+	"lore.scattered_shards.shard_tablet": "A backpack that can be used to view all the lost items you have found while visiting booths.",
+
+	"key.scattered_shards.collection": "View Backpack",
+
+	"menu.scattered_shards.collection": "Lost Items",
+
+	"toast.scattered_shards.collected": "Lost Item Collected!",
+
+	"gui.scattered_shards.tablet.tooltip.global_collection": "%s of players have this item",
+
+	"gui.scattered_shards.tablet.click_on_a_shard": "Click on an item to the left",
+
+	"gui.scattered_shards.tablet.label.progress.started": "%s Visited",
+	"gui.scattered_shards.tablet.label.progress.total": "%s Items",
+
+	"shard_type.modfest.visitor.description": "Notebook",
+	"shard_type.modfest.bonus_1.description": "Homework",
+	"shard_type.modfest.bonus_2.description": "Love Letter",
+	"shard_type.modfest.bonus_3.description": "Grimoire"
+}

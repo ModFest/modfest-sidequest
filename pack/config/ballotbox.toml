@@ -1,0 +1,36 @@
+# The text to use to replace the bug report button
+# default: ModFest Discord
+custom_link_text = "ModFest Discord"
+# The link to use to replace the bug report button
+# default: https://discord.gg/gn543Ee
+custom_link_url = "https://discord.gg/gn543Ee"
+# The text to use for replacement credits but tons button
+# default: Modpack Credits
+credits_text = "Modpack Credits"
+# The number of top results to show when displaying voting results
+# default: 8
+awardLimit = 30
+# The closing date, as an ISO local date time - or an empty string for none
+# default: 2024-12-16T12:00:00
+closingTime = "2026-06-16T12:00:00"
+
+# Where to add a voting button, anchored to existing button translation keys
+[voting_button]
+	"menu.feedback" = "REPLACE"
+	"menu.sendFeedback" = "REPLACE"
+
+# Where to add a custom link button, anchored to existing button translation keys
+[custom_link_button]
+	"menu.reportBugs" = "REPLACE"
+
+# Where to add a credits button, anchored to existing button translation keys
+[credits_button]
+	"menu.multiplayer" = "INSERT_AFTER"
+	"menu.playerReporting" = "REPLACE"
+
+# Settings for the reminder on the pause screen
+[reminder_settings]
+	# default: 0
+	reminder_x_offset = 0
+	# default: 0
+	reminder_y_offset = 0
