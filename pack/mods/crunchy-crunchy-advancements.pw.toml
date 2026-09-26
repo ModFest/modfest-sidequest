@@ -1,0 +1,15 @@
+name = "crunchy-crunchy-advancements"
+filename = "crunchy-crunchy-advancements-1.7.2+26.3.jar"
+side = "both"
+
+[download]
+url = "https://github.com/afamiliarquiet/crunchy-crunchy-advancements/releases/download/v1.7.2%2B26.3/crunchy-crunchy-advancements-1.7.2%2B26.3.jar"
+hash-format = "sha256"
+hash = "d4f3c291db222be619d4f53447fe6fc3c53013ee0987bc4dd1b19910cb5a2cf8"
+
+[update]
+[update.github]
+branch = "26.3"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "afamiliarquiet/crunchy-crunchy-advancements"
+tag = "v1.7.2+26.3"

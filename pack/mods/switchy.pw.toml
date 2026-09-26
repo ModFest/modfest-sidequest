@@ -1,0 +1,15 @@
+name = "switchy"
+filename = "switchy-3.7.3+26.3.jar"
+side = "both"
+
+[download]
+url = "https://github.com/afamiliarquiet/switchy/releases/download/v3.7.3%2B26.3/switchy-3.7.3%2B26.3.jar"
+hash-format = "sha256"
+hash = "985dcafe54ea0ec8f2e83ce467532e535657457efbfb08f821e1d85b02373ced"
+
+[update]
+[update.github]
+branch = "26.3"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "afamiliarquiet/switchy"
+tag = "v3.7.3+26.3"

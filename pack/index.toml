@@ -143,6 +143,14 @@ file = "mods/controlling.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/crunchy-crunchy-advancements.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/drogstyle.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ears.pw.toml"
 metafile = true
 
@@ -171,7 +179,15 @@ file = "mods/item-descriptions.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/lampblack.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mcqoy.pw.toml"
 metafile = true
 
 [[files]]
@@ -240,6 +256,22 @@ metafile = true
 
 [[files]]
 file = "mods/styledplayerlist.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/switchy.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/worldedit-client.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/worldedit-cui.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/worldedit-server.pw.toml"
 metafile = true
 
 [[files]]
@@ -1070,9 +1102,6 @@ file = "resources/resourcepack/required/mf_branding/assets/minecraft/textures/gu
 
 [[files]]
 file = "resources/resourcepack/required/mf_branding/assets/minecraft/textures/gui/title/minecraft.png"
-
-[[files]]
-file = "resources/resourcepack/required/mf_branding/assets/minecraft/textures/gui/title/mojangstudios.png"
 
 [[files]]
 file = "resources/resourcepack/required/mf_branding/assets/minecraft/textures/misc/forcefield.png"

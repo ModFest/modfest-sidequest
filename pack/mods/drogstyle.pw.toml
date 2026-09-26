@@ -1,0 +1,15 @@
+name = "drogstyle"
+filename = "drogstyle-1.3.5+26.3.jar"
+side = "both"
+
+[download]
+url = "https://github.com/afamiliarquiet/drogstyle/releases/download/v1.3.5%2B26.3/drogstyle-1.3.5%2B26.3.jar"
+hash-format = "sha256"
+hash = "5443c651f5b2d1700b35707277f8bb57eea185885b8264d8e4768d86939e649a"
+
+[update]
+[update.github]
+branch = "26.3"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "afamiliarquiet/drogstyle"
+tag = "v1.3.5+26.3"

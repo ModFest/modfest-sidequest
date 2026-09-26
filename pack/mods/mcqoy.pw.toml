@@ -1,0 +1,15 @@
+name = "mcqoy"
+filename = "mcqoy-0.4.1+fabric-26.3.jar"
+side = "both"
+
+[download]
+url = "https://github.com/afamiliarquiet/mcqoy/releases/download/v0.4.1%2Bfabric-26.3/mcqoy-0.4.1%2Bfabric-26.3.jar"
+hash-format = "sha256"
+hash = "11710726a09e126d2a937df63c4e210fc71902b54d977baded99b02eef9c2f9d"
+
+[update]
+[update.github]
+branch = "fabric-26.3"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "afamiliarquiet/mcqoy"
+tag = "v0.4.1+fabric-26.3"
