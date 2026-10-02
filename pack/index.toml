@@ -187,6 +187,10 @@ file = "mods/item-descriptions.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/jade.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/lampblack.pw.toml"
 metafile = true
 
