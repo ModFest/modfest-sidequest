@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Modified from: https://github.com/FabricMC/fabric-loom/blob/d1f35d42218d0710ca640e6f8bef31b7232a9304/src/main/resources/log4j2.fabric.xml -->
+<Configuration status="WARN" packages="com.mojang.util">
+	<Appenders>
+
+		<!--	System out	-->
+		<Console name="SysOut" target="SYSTEM_OUT">
+			<PatternLayout pattern="%style{[%d{HH:mm:ss}]}{blue} %highlight{[%t/%level]}{FATAL=red, ERROR=red, WARN=yellow, INFO=green, DEBUG=normal, TRACE=blue} %style{[%c{1.}]}{cyan}: %highlight{%msg{nolookups}}{FATAL=red, ERROR=red, WARN=normal, INFO=normal, DEBUG=normal, TRACE=normal}%n" disableAnsi="${sys:fabric.log.disableAnsi:-true}" />
+		</Console>
+
+		<!--	Vanilla server gui	-->
+		<Queue name="ServerGuiConsole" ignoreExceptions="true">
+			<PatternLayout pattern="[%d{HH:mm:ss}] [%t/%level] [%logger{1}]: %msg{nolookups}%n" />
+		</Queue>
+
+		<!--	latest.log same as vanilla	-->
+		<RollingRandomAccessFile name="LatestFile" fileName="logs/latest.log" filePattern="logs/%d{yyyy-MM-dd}-%i.log.gz">
+			<PatternLayout pattern="[%d{HH:mm:ss}\ [%t/%level] [%logger]: %msg{nolookups}%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<OnStartupTriggeringPolicy />
+			</Policies>
+		</RollingRandomAccessFile>
+
+		<!--	Debug log file	-->
+		<RollingRandomAccessFile name="DebugFile" fileName="logs/debug.log" filePattern="logs/debug-%i.log.gz">
+			<PatternLayout pattern="[%d{HH:mm:ss}] [%t/%level] [%logger]: %msg{nolookups}%n" />
+
+			<!--	Keep 5 files max	-->
+			<DefaultRolloverStrategy max="5" fileIndex="min"/>
+
+			<Policies>
+				<SizeBasedTriggeringPolicy size="200MB"/>
+				<OnStartupTriggeringPolicy />
+			</Policies>
+
+		</RollingRandomAccessFile>
+	</Appenders>
+	<Loggers>
+		<Logger level="${sys:fabric.log.level:-info}" name="net.minecraft"/>
+		<Root level="all">
+			<!-- Uncomment the following line to enable `debug.log`. Disabled by default, as it is extremely verbose! -->
+			<!-- <AppenderRef ref="DebugFile" level="${sys:fabric.log.debug.level:-debug}"/> -->
+			<AppenderRef ref="SysOut" level="${sys:fabric.log.level:-info}"/>
+			<AppenderRef ref="LatestFile" level="${sys:fabric.log.level:-info}"/>
+			<AppenderRef ref="ServerGuiConsole" level="${sys:fabric.log.level:-info}"/>
+		</Root>
+	</Loggers>
+</Configuration>

@@ -139,6 +139,10 @@ file = "mods/better-block-entities.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/better-log4j-config.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 metafile = true
 
@@ -160,6 +164,10 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fireblanket.pw.toml"
 metafile = true
 
 [[files]]
@@ -196,6 +204,10 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/music-moods.pw.toml"
 metafile = true
 
 [[files]]
