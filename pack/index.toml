@@ -207,6 +207,10 @@ file = "mods/lithium.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/map-utils.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/mcqoy.pw.toml"
 metafile = true
 
