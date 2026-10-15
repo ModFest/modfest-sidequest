@@ -16,12 +16,11 @@ closingTime = "2026-06-16T12:00:00"
 
 # Where to add a voting button, anchored to existing button translation keys
 [voting_button]
-	"menu.feedback" = "REPLACE"
-	"menu.sendFeedback" = "REPLACE"
+	"options.worldOptions.button" = "INSERT_AFTER"
 
 # Where to add a custom link button, anchored to existing button translation keys
 [custom_link_button]
-	"menu.reportBugs" = "REPLACE"
+	"options.worldOptions.button" = "REPLACE"
 
 # Where to add a credits button, anchored to existing button translation keys
 [credits_button]
