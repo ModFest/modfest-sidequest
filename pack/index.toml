@@ -143,6 +143,10 @@ file = "mods/better-log4j-config.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/bobby.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 metafile = true
 
